@@ -21,14 +21,14 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .btn{display:inline-block;padding:14px 36px;border-radius:4px;font-size:1rem;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:.5px;transition:all .2s ease;cursor:pointer;border:none}
 .btn-primary{background:var(--gold);color:var(--navy)}.btn-primary:hover{background:var(--gold-light);text-decoration:none}
 .btn-outline{border:2px solid var(--white);color:var(--white);background:transparent}.btn-outline:hover{background:var(--white);color:var(--navy);text-decoration:none}
-.site-header{position:sticky;top:0;z-index:100;background:var(--navy);padding:18px 0}
-.header-inner{display:flex;align-items:center;justify-content:space-between}
-.logo{display:flex;align-items:center;gap:12px;color:var(--white);font-size:1.25rem;font-weight:600}
+.site-header{position:sticky;top:0;z-index:100;background:var(--white);padding:18px 0;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.header-inner{display:flex;flex-direction:column;align-items:center;gap:14px}
+.logo{display:flex;align-items:center;justify-content:center;color:var(--navy);font-size:1.25rem;font-weight:600}
 .logo:hover{text-decoration:none}
 .logo-mark{display:flex;align-items:center;justify-content:center;width:42px;height:42px;background:var(--gold);color:var(--navy);border-radius:50%;font-size:1rem;font-weight:700;font-family:'Helvetica Neue',Arial,sans-serif}
 .nav{display:flex;gap:28px}
-.nav a{color:var(--white);font-family:'Helvetica Neue',Arial,sans-serif;font-size:.9rem;letter-spacing:.3px}
-.nav a:hover{color:var(--gold-light);text-decoration:none}
+.nav a{color:var(--navy);font-family:'Helvetica Neue',Arial,sans-serif;font-size:.9rem;letter-spacing:.3px}
+.nav a:hover{color:var(--gold);text-decoration:none}
 .hero{background:linear-gradient(135deg,var(--navy),var(--navy-light));color:var(--white);padding:100px 0 90px;text-align:center}
 .hero-tagline{font-family:'Helvetica Neue',Arial,sans-serif;font-size:.8rem;letter-spacing:3px;color:var(--gold);margin-bottom:24px}
 .hero h1{font-size:3rem;margin-bottom:24px;letter-spacing:-.5px}
@@ -78,6 +78,7 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
 .footer-brand{display:flex;align-items:center;gap:10px;color:var(--white);font-size:1.1rem}
 .footer-brand .logo-mark{width:36px;height:36px;font-size:.85rem}
+.footer-brand img{mix-blend-mode:multiply}
 .footer-copy{font-size:.9rem;font-family:'Helvetica Neue',Arial,sans-serif}
 .footer-links{display:flex;gap:24px}
 .footer-links a{color:rgba(255,255,255,.7);font-family:'Helvetica Neue',Arial,sans-serif;font-size:.9rem}
@@ -85,7 +86,7 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 @media(max-width:900px){.transform-grid{grid-template-columns:repeat(2,1fr)}.item-list{grid-template-columns:1fr}}
 @media(max-width:800px){.about-inner{grid-template-columns:1fr}.about-image{display:none}}
 @media(max-width:700px){.contact-inner{grid-template-columns:1fr}}
-@media(max-width:640px){.hero h1{font-size:2rem}.hero-subtitle{font-size:1.1rem}.nav{gap:14px}.logo-text{display:none}.steps-grid{grid-template-columns:1fr}.transform-grid{grid-template-columns:1fr}.subsection-desc,.item-list,.result-box{padding-left:0;margin-left:0}}
+@media(max-width:640px){.hero h1{font-size:2rem}.hero-subtitle{font-size:1.1rem}.nav{gap:14px}.steps-grid{grid-template-columns:1fr}.transform-grid{grid-template-columns:1fr}.subsection-desc,.item-list,.result-box{padding-left:0;margin-left:0}}
 </style>
 </head>
 <body>
