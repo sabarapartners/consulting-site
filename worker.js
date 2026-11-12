@@ -36,7 +36,7 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .header-inner{display:flex;flex-direction:column;align-items:center}
 .logo{display:flex;justify-content:center;width:100%}
 .logo:hover{text-decoration:none}
-.logo img{display:block;width:100%;height:auto;max-height:200px;object-fit:contain}
+.logo img{display:block;width:100%;height:auto;max-height:170px;object-fit:contain}
 .logo-mark{display:flex;align-items:center;justify-content:center;width:42px;height:42px;background:var(--gold);color:var(--navy);border-radius:50%;font-size:1rem;font-weight:700;font-family:'Montserrat',sans-serif}
 .nav{display:flex;gap:28px;padding:14px 0}
 .nav a{color:var(--navy);font-family:'Montserrat',sans-serif;font-size:.9rem;letter-spacing:.3px}
