@@ -21,12 +21,13 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .btn{display:inline-block;padding:14px 36px;border-radius:4px;font-size:1rem;font-family:'Helvetica Neue',Arial,sans-serif;font-weight:600;letter-spacing:.5px;transition:all .2s ease;cursor:pointer;border:none}
 .btn-primary{background:var(--gold);color:var(--navy)}.btn-primary:hover{background:var(--gold-light);text-decoration:none}
 .btn-outline{border:2px solid var(--white);color:var(--white);background:transparent}.btn-outline:hover{background:var(--white);color:var(--navy);text-decoration:none}
-.site-header{position:sticky;top:0;z-index:100;background:var(--white);padding:18px 0;box-shadow:0 2px 8px rgba(0,0,0,.08)}
-.header-inner{display:flex;flex-direction:column;align-items:center;gap:14px}
-.logo{display:flex;align-items:center;justify-content:center;color:var(--navy);font-size:1.25rem;font-weight:600}
+.site-header{position:sticky;top:0;z-index:100;background:var(--white);padding:0}
+.header-inner{display:flex;flex-direction:column;align-items:center}
+.logo{display:block;width:100%}
 .logo:hover{text-decoration:none}
+.logo img{display:block;width:100%;height:auto}
 .logo-mark{display:flex;align-items:center;justify-content:center;width:42px;height:42px;background:var(--gold);color:var(--navy);border-radius:50%;font-size:1rem;font-weight:700;font-family:'Helvetica Neue',Arial,sans-serif}
-.nav{display:flex;gap:28px}
+.nav{display:flex;gap:28px;padding:14px 0}
 .nav a{color:var(--navy);font-family:'Helvetica Neue',Arial,sans-serif;font-size:.9rem;letter-spacing:.3px}
 .nav a:hover{color:var(--gold);text-decoration:none}
 .hero{background:linear-gradient(135deg,var(--navy),var(--navy-light));color:var(--white);padding:100px 0 90px;text-align:center}
@@ -90,7 +91,7 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
-<header class="site-header"><div class="container header-inner"><a href="/" class="logo"><img src="/SP Logo big.png" alt="Sabara Partners" style="height:180px;width:auto"></a><nav class="nav"><a href="#approach">Approach</a><a href="#transaction">Transaction</a><a href="#transformation">Transformation</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
+<header class="site-header"><div class="header-inner"><a href="/" class="logo"><img src="/SP Logo big.png" alt="Sabara Partners"></a><nav class="nav"><a href="#approach">Approach</a><a href="#transaction">Transaction</a><a href="#transformation">Transformation</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
 <section class="hero"><div class="container"><div class="hero-tagline">DILIGENCE &middot; M&amp;A SUPPORT &middot; VALUE CREATION</div><h1>Transaction and Support.</h1><p class="hero-subtitle">We help private equity and corporate teams evaluate opportunities, prepare for transactions, and turn investment priorities into practical improvement plans.</p><div class="hero-actions"><a href="#contact" class="btn btn-primary">Discuss your next priority</a><a href="#transaction" class="btn btn-outline">See what we do</a></div></div></section>
 <section id="approach" class="section section-alt"><div class="container"><h2 class="section-title">Approach</h2><p class="section-subtitle">From the evidence to an execution roadmap</p><div class="steps-grid"><div class="step"><span class="step-num">01</span><h3>Assess the business</h3><p>Evidence and assumptions.</p></div><div class="step"><span class="step-num">02</span><h3>Inform the deal</h3><p>Risks and decision implications.</p></div><div class="step"><span class="step-num">03</span><h3>Plan value creation</h3><p>Priorities and execution roadmap.</p></div></div></div></section>
 <section id="transaction" class="section"><div class="container"><h2 class="section-title">Transaction</h2><p class="section-subtitle">Support the process on both sides of the deal</p>
