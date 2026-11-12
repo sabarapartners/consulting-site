@@ -6,6 +6,7 @@ export default {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Sabara Partners — M&A support and value creation for private equity and corporate teams.">
+<meta name="google-site-verification" content="JuC0LiO7lyjRdxtTm2_v9cYAA2wGAN69hS0ZyJLEUK4" />
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%230f1e3d'/><circle cx='50' cy='50' r='36' fill='%23c8a24b'/><text x='50' y='62' font-family='Helvetica' font-size='32' font-weight='700' text-anchor='middle' fill='%230f1e3d'>SP</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@ export default {
 <style>
 :root{--navy:#0f1e3d;--navy-light:#1c3155;--gold:#c8a24b;--gold-light:#e0c878;--light:#f7f6f2;--gray:#6b6b6b;--white:#fff}
 *{margin:0;padding:0;box-sizing:border-box}
-<meta name="google-site-verification" content="JuC0LiO7lyjRdxtTm2_v9cYAA2wGAN69hS0ZyJLEUK4" />
+
 body{font-family:'Montserrat',sans-serif;color:var(--navy);line-height:1.7;background:var(--white)}
 h1,h2,h3,h4{font-family:'Montserrat',sans-serif;font-weight:600;line-height:1.25}
 a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
