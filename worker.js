@@ -14,6 +14,7 @@ export default {
 <style>
 :root{--navy:#0f1e3d;--navy-light:#1c3155;--gold:#c8a24b;--gold-light:#e0c878;--light:#f7f6f2;--gray:#6b6b6b;--white:#fff}
 *{margin:0;padding:0;box-sizing:border-box}
+<meta name="google-site-verification" content="JuC0LiO7lyjRdxtTm2_v9cYAA2wGAN69hS0ZyJLEUK4" />
 body{font-family:'Montserrat',sans-serif;color:var(--navy);line-height:1.7;background:var(--white)}
 h1,h2,h3,h4{font-family:'Montserrat',sans-serif;font-weight:600;line-height:1.25}
 a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
