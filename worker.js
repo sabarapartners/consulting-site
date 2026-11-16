@@ -3,7 +3,8 @@ export default {
     const html = `<!doctype html>
 <html lang="en">
 <head>
-<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-PP2SCMFG"></script>
+
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-P9BMZV8P"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); </script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
